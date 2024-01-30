@@ -8,8 +8,7 @@ Create a function that takes two lists as input and returns a new list that is t
 def two_list(lst1=None, lst2=None):
     if lst1 is None or not isinstance(lst1, list):
         raise ValueError("Input must be a list")
-    
-    if lst2 is None or not isinstance(lst2, list):
+    elif lst2 is None or not isinstance(lst2, list):
         raise ValueError("Input must be a list")
     
     result = lst1 + lst2
