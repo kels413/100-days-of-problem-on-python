@@ -13,8 +13,8 @@ def reverse_list(lst=None):
         raise ValueError("sorry only list is allowed")
       
 try:
-    # content = reverse_list([1,2,3,4,5])
-    content = reverse_list("kelly")
+    content = reverse_list([1,2,3,4,5])
+    # content = reverse_list("kelly")
     print(content)
 except  ValueError as ve:
     print(f"Error: {ve}")
