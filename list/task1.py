@@ -17,10 +17,11 @@ Create a function that takes a list of numbers as input and returns the sum of a
 # print(f"The Total is {total}")
 
 
-# ANOTHER WAY OF SOLVING SAME PROBLEM (TIME EFFICIENCY)
+# so I prefer this code to the first one cause of how 
+# simple it is.
 
-#you see that this one is faster right ?? cause it takes just a
-#step to complete the sum of a list regardless of the number of element
+# Found out yesterday that sum function also takes big O(n) to be honest i thought it takes big O(1) just as len function, well we learn everyday, lol 😂.....
+
 
 def lst_sum(lst=None):
     if lst is None or not isinstance(lst, list):
