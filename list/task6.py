@@ -3,6 +3,9 @@
 # a program that reverses python first and last list
 def reverse_first_and_last(lst):
 	size = len(lst)
+
+
+			
 	start = 0
 	end = size - 1
 
@@ -14,6 +17,6 @@ def reverse_first_and_last(lst):
 
 
 # print the element
-result = reverse_first_and_last([1])
+result = reverse_first_and_last([1,2,3,4,5])
 print(result)
 	
