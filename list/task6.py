@@ -1,18 +1,19 @@
 #Given a list, write a Python program to swap first and last element of the list.
 
-
+# a program that reverses python first and last list
 def reverse_first_and_last(lst):
-	first = lst[0]
-	last  = lst[-1]
-	tmp = first
+	size = len(lst)
+	start = 0
+	end = size - 1
 
-	list[first] = last
-	list[last] = tmp
-	print(last)
+	tmp = lst[start]
+
+	lst[start] = lst[end]
+	lst[end] = tmp
 	return lst
 
 
-result = reverse_first_and_last([1,2,3,4,5])
-
+# print the element
+result = reverse_first_and_last([1])
 print(result)
 	
